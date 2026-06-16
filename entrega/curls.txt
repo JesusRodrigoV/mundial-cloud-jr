@@ -2,9 +2,72 @@
 
 ## GET /poleras
 
+PS D:\proyectos\cloud\final\mundial-cloud-jr> curl https://dzk7rda5nb.execute-api.us-east-2.amazonaws.com/prod/poleras
+
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : {"poleras":[{"archivo":"espana.svg","url":"https://mundial-poleras-velasco.s3.amazonaws.com/poleras/espana.svg"},{"archivo":"mexico.svg","ur
+                    l":"https://mundial-poleras-velasco.s3.amazonaws.com/poleras...
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    x-amzn-RequestId: e4a9d136-90c5-4226-b0bd-07d5f185ac25
+                    Access-Control-Allow-Origin: *
+                    x-amz-apigw-id: fE6GsFQsiYcEfyA=
+                    X-Amzn-Trace-Id: Root=1-6a31d6f7-0a18...
+Forms             : {}
+Headers           : {[Connection, keep-alive], [x-amzn-RequestId, e4a9d136-90c5-4226-b0bd-07d5f185ac25], [Access-Control-Allow-Origin, *], [x-amz-apigw-id,      
+                    fE6GsFQsiYcEfyA=]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 225
 
 ## GET /partidos
 
+PS D:\proyectos\cloud\final\mundial-cloud-jr> curl https://dzk7rda5nb.execute-api.us-east-2.amazonaws.com/prod/partidos
+
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : {"partidos":[{"local":"MÃ©xico","visitante":"SudÃ¡frica","estadio":"Estadio
+                    Azteca","id":"partido-001","grupo":"A","fecha":"2026-06-11"},{"local":"Brasil","visitante":"Marruecos","estadio":"MetLife St...
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    x-amzn-RequestId: c14ae704-5a75-4f36-8a38-fe0bff20c0ee
+                    Access-Control-Allow-Origin: *
+                    x-amz-apigw-id: fE6LIFChiYcEvZg=
+                    X-Amzn-Trace-Id: Root=1-6a31d713-73b6...
+Forms             : {}
+Headers           : {[Connection, keep-alive], [x-amzn-RequestId, c14ae704-5a75-4f36-8a38-fe0bff20c0ee], [Access-Control-Allow-Origin, *], [x-amz-apigw-id,      
+                    fE6LIFChiYcEvZg=]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 515
 
 ## GET /partidos/partido-001
+
+PS D:\proyectos\cloud\final\mundial-cloud-jr> curl https://dzk7rda5nb.execute-api.us-east-2.amazonaws.com/prod/partidos/partido-001
+
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : {"local":"MÃ©xico","visitante":"SudÃ¡frica","estadio":"Estadio Azteca","id":"partido-001","grupo":"A","fecha":"2026-06-11"}
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    x-amzn-RequestId: 4cb259b4-cf88-4712-b56c-1f7bd17da6eb
+                    Access-Control-Allow-Origin: *
+                    x-amz-apigw-id: fE6OjFsRiYcEZpA=
+                    X-Amzn-Trace-Id: Root=1-6a31d729-2e90...
+Forms             : {}
+Headers           : {[Connection, keep-alive], [x-amzn-RequestId, 4cb259b4-cf88-4712-b56c-1f7bd17da6eb], [Access-Control-Allow-Origin, *], [x-amz-apigw-id,      
+                    fE6OjFsRiYcEZpA=]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 123
 
